@@ -9,7 +9,7 @@ item_names.push("cabbage")
 item_prices.push(80)
 in_stock.push(true)
 console.log(item_names)
-let last_item_name = item_names[3]
-let last_item_price = item_prices[3]
-let last_item_stock = in_stock[3]
+let last_item_name = item_names.pop()
+let last_item_price = item_prices.pop()
+let last_item_stock = in_stock.pop()
 console.log(last_item_name, last_item_price, last_item_stock )
